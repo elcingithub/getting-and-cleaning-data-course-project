@@ -7,5 +7,7 @@ Getting and Cleaning Data Course Project
 This repository has the following:
 
 run_analysis.R
+
 CodeBook.md, has information on tidy.txt table.
+
 tidy.txt, output produced by run_analysis.R
