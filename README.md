@@ -18,3 +18,4 @@ This repository has the following:
 **README.md**, high level overview of the dataset and how it was created
 CodeBook.md, has information on tidy.txt table.
 tidy.txt, output produced by run_analysis.R
+README.md
