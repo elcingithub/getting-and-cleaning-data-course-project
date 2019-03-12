@@ -1,6 +1,6 @@
-Identifiers
-•	subject
-•	activity
+**Identifiers**
+subject
+activity
 String with 6 possible values:
 o	WALKING
 o	WALKING_UPSTAIRS
