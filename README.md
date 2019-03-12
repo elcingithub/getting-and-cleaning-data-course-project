@@ -14,4 +14,7 @@ run_analysis.R which performs the following:
 4.Appropriately labels the data set with descriptive activity names.
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-CodeBook.md has information on tidy.txt table.
+
+README.md, high level overview of the dataset and how it was created
+CodeBook.md, has information on tidy.txt table.
+tidy.txt, output produced by run_analysis.R
