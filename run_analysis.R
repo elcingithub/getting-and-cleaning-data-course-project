@@ -2,8 +2,7 @@
 
 library(dplyr)
 
-
-# download zip file containing data if it hasn't already been downloaded
+#download zip file
 zipUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 zipFile <- "UCI HAR Dataset.zip"
 
@@ -42,8 +41,6 @@ rm(trainingSubjects, trainingValues, trainingActivity,
 
 colnames(humanActivity) <- c("subject", features[, 2], "activity")
 
-
-
 columnsToKeep <- grepl("subject|activity|mean|std", colnames(humanActivity))
 
 humanActivity <- humanActivity[, columnsToKeep]
@@ -68,7 +65,6 @@ humanActivityCols <- gsub("std", "StandardDeviation", humanActivityCols)
 humanActivityCols <- gsub("BodyBody", "Body", humanActivityCols)
 
 colnames(humanActivity) <- humanActivityCols
-
 
 humanActivityMeans <- humanActivity %>% 
   group_by(subject, activity) %>%
